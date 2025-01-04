@@ -1,3 +1,2 @@
 AWS-Web-Application-Terraform.code-workspace
-terraform.tfvars
-/def/p2.tf
+secrets.tfvars

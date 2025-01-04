@@ -35,12 +35,19 @@ variable "public_subnet2_cidr" {
 # Private Subnets
 variable "private_subnet1_cidr" {
   description = "CIDR block for Private Subnet 1"
-  default     = ""
+  default     = "192.168.3.0/24"
 }
-
 variable "private_subnet2_cidr" {
   description = "CIDR block for Private Subnet 2"
-  default     = ""
+  default     = "192.168.4.0/24"
+}
+variable "db_subnet1_cidr" {
+  description = "CIDR block for DB Subnet 1"
+  default     = "192.168.5.0/24"  
+}
+variable "db_subnet2_cidr" {
+  description = "CIDR block for DB Subnet 2"
+  default     = "192.168.6.0/24"
 }
 # EC2 Instance Details
 variable "ec2_v1_name" {
