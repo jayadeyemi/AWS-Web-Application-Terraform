@@ -10,7 +10,7 @@ resource "aws_vpc" "main" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Inventory-VPC"
+    Name = vpc_name
   }
 }
 
