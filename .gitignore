@@ -1,6 +1,6 @@
 # Exclude workspace file
 AWS-Web-Application-Terraform.code-workspace
-tfplan
+
 # Exclude secrets file
 secrets.tfvars
 
@@ -36,7 +36,8 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
-
+*.hcl
+tfplan
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
